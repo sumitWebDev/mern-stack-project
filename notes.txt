@@ -1,3 +1,15 @@
 Topic - How to connect Database in NextJS?
 
 For normal backend connection, it is difficult to build Database connection as it needs to be up and running constantly. However, that is not the case for Next JS. Next JS works only during the request and not like conservation backend languages which always should be connected. Next JS runs only if there are any requests. So whenever, we are making any request using Next js we need to check if the database connection is already created else we might choke the database with multiple request. The reason is Next js only runs while we send requests not everytime. 
+
+
+Topic - SignUp Email with NextJs.
+
+We can use a package called NextAuth or directly use Mongoose to store data in database. We will use Resend to send email on user sign up.
+Scenarios for new user sign up - 
+1. Registering completely new user
+2. Updating an existing but unverified user account with a new password and verification code.
+
+ReactEmail can be used for email templates. 
+
+re_SZCkoc3b_6TKKWL633nuZfcfQ98S6iQvv
